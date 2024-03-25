@@ -4,9 +4,6 @@
 
 This C++ code simulates a simple Instruction Set Architecture (ISA) processor. Let's break down the code and understand its components and functionality.
 
-## Includes
-The code includes the necessary C++ standard libraries: `<iostream>` for input/output operations, `<iomanip>` for manipulating input/output formatting, and `<vector>` for using vectors.
-
 ## Constants
 Several constants are defined at the beginning, including `MEMORY_SIZE` for the size of the memory, `REGISTER_COUNT` for the number of registers, and various opcode constants representing different instructions.
 
