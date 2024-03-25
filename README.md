@@ -10,7 +10,7 @@ The code includes the necessary C++ standard libraries: `<iostream>` for input/o
 ## Constants
 Several constants are defined at the beginning, including `MEMORY_SIZE` for the size of the memory, `REGISTER_COUNT` for the number of registers, and various opcode constants representing different instructions.
 
-## Class ISA_Simulator
+## Class `ISA_Simulator`
 This class represents the ISA simulator.
 - Private member variables:
   - `memory`: A vector representing the memory of the simulated ISA machine.
@@ -23,21 +23,21 @@ This class represents the ISA simulator.
   - `void printMemory() const`: Prints the content of the memory.
   - `void printRegisters() const`: Prints the content of the registers.
 
-## loadProgram Function
+## `loadProgram` Function
 Loads the given program into the memory.
 
-## run Function
+## `run` Function
 Executes the loaded program by iterating through memory instructions.
 - Fetches each instruction from memory, extracts the opcode and operand, and performs the corresponding operation.
 - The loop continues until the program counter reaches the end of the memory or a halt instruction is encountered.
 
-## printMemory Function
+## `printMemory` Function
 Prints the content of the memory in hexadecimal format.
 
-## printRegisters Function
+## `printRegisters` Function
 Prints the content of the registers.
 
-## main Function
+## `main` Function
 Creates an instance of `ISA_Simulator`.
 Defines an example program using opcode constants and operand values.
 Loads the program into the simulator, runs it, and then prints the memory and registers after execution.
